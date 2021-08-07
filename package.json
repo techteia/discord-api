@@ -1,20 +1,29 @@
 {
-  "name": "discord-api",
+  "name": "@techteia/discord-api",
   "version": "1.0.0",
   "description": "Discord API library",
   "main": "index.js",
-  "directories": {
-    "lib": "lib"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Techteia/discord-api.git"
+  },
+  "author": "MrSwirlyEyes",
   "license": "ISC",
-  "devDependencies": {
-    "eslint": "^7.32.0"
+  "bugs": {
+    "url": "https://github.com/Techteia/discord-api/issues"
+  },
+  "homepage": "https://github.com/Techteia/discord-api#readme",
+  "publishConfig": {
+    "cache": "cache/.npm",
+    "registry": "https://npm.pkg.github.com/"
   },
   "dependencies": {
     "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0"
   }
 }
