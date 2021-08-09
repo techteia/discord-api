@@ -1,6 +1,6 @@
 {
   "name": "@techteia/discord-api",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "Discord API library",
   "main": "index.js",
   "scripts": {
